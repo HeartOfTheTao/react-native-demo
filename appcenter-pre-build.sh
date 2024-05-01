@@ -1,6 +1,7 @@
 #!/user/bin/env bash
 
 export
+apt-get install android-sdk
 PATH=$PATH:$HOME/Library/Android/sdk/cmdline-tools/laest/bin
 
 sdkmanager "platforms;android-23"
