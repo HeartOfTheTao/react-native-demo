@@ -1,5 +1,5 @@
 #!/user/bin/env bash
-  
+softwareupdate --install-rosette  
 export PATH=$PATH:$HOME/Library/Android/sdk/cmdline-tools/latest/bin
   
 sdkmanager "platforms;android-23"
