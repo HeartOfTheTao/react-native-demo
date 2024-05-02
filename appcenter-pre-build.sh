@@ -1,4 +1,6 @@
 #!/user/bin/env bash
+
+uname -m
 echo 'a' | softwareupdate --install-rosetta  
 export PATH=$PATH:$HOME/Library/Android/sdk/cmdline-tools/latest/bin
   
